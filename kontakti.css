@@ -1,0 +1,95 @@
+#Travel-Website {
+  background-color: gray;
+  margin: 0;
+}
+
+.ok-header {
+  z-index: 3;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: #305252;
+  transition: background-color 0.3s;
+}
+
+.ok-navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1000px;
+  width: 100%;
+  margin: auto;
+}
+
+.ok-navbar img {
+  height: 60px;
+}
+
+nav ul {
+  display: flex;
+  margin: 0;
+}
+
+nav li {
+  list-style-type: none;
+}
+
+nav a:hover {
+  color: greenyellow;
+}
+
+nav a {
+  text-decoration: none;
+  padding-left: 20px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  font-size: 18px;
+  letter-spacing: 0.06em;
+  transition: 0.1s;
+}
+
+#ok-hero {
+  width: 40%;
+  margin-top: 118px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px 35px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border: 3px solid black;
+  border-radius: 25px;
+  background-color: lightblue;
+}
+
+#ok-hero h1 {
+  font-family: 'Raleway', sans-serif;
+  color: #1C2541;
+  text-align: center;
+  letter-spacing: .04em;
+  font-size: 30px;
+  padding: 0;
+  margin: 0;
+}
+
+div {
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  text-align: center;
+}
+
+@media only screen and (max-width: 767px) {
+  .ok-header {
+      padding: 10px;
+  }
+  .ok-navbar img {
+      height: 30px;
+  }
+  nav a {
+      padding-left: 0;
+  }
+}

@@ -1,0 +1,133 @@
+#Travel-Website, h1, h2, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+
+#Travel-Website {
+    font-family: 'Arial', sans-serif;
+    background-color: whitesmoke;
+    color: #333;
+}
+.ok-foto{
+    margin-left: 790px;
+    margin-top: -50px;
+}
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.site-header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 15px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li {
+    margin-right: 20px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.packages-section {
+    padding: 50px 20px;
+    background-color: gray;
+    text-align: center;
+}
+
+.packages-section h2 {
+    margin-bottom: 30px;
+}
+
+.package {
+    border-radius: 20px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px;
+}
+
+.contact-section {
+    background-color: #3498db;
+    color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.contact-section h2 {
+    margin-bottom: 30px;
+}
+
+#info {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  #info h2 {
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+    font-size: 32px;
+    margin: 0;
+    color: #1C2541;
+    line-height: 40px;
+  }
+  
+  #info p {
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+    line-height: 1.6em;
+  }
+  
+  .ok-info-text {
+    width: 65%;
+    padding: 20px;
+  }
+  .ok-info-content {
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: auto;
+    padding: 70px;
+  }
+  @media only screen and (max-width: 767px) {
+    .nav-list {
+        flex-direction: column;
+        align-items: center;
+    }
+     .ok-foto{
+        display: none;
+     }
+    .nav-list li {
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    #ok-hero {
+        padding: 20px;
+    }
+
+    #info, #services, .packages-section, .contact-section {
+        padding: 30px;
+    }
+}

@@ -1,0 +1,221 @@
+#Travel-Website {
+  margin: 0;
+}
+
+.ok-header {
+  z-index: 3;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  background-color: transparent;
+  transition: background-color 0.3s;
+}
+.ok-header:hover {
+  background-color: #305252;
+}
+.ok-navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1000px;
+  width: 100%;
+  margin: auto;
+}
+
+nav ul {
+  display: flex;
+  margin: 0;
+}
+
+nav li {
+  list-style-type: none;
+}
+
+nav a:hover {
+  color: greenyellow;
+}
+
+nav a {
+  text-decoration: none;
+  padding-left: 20px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  font-size: 18px;
+  letter-spacing: 0.06em;
+  transition: 0.1s;
+}
+
+.ok-gallery {
+  display: flex;
+  overflow: hidden;
+}
+
+.ok-slide {
+  min-width: 100%;
+  transition: 1.8s;
+}
+
+img {
+  width: 100%;
+  height: 600px;
+}
+
+button:hover {
+  color: gray;
+}
+button {
+  position: absolute;
+  top: 35%;
+  width: 50px;
+  padding: 16px;
+  background-color: transparent;
+  color: white;
+  margin-top: -28px;
+  font-size: 30px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+#left {
+  left: 0;
+}
+
+#right {
+  right: 0;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h5 {
+  font-size: 13px;
+}
+
+#clock {
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  background-color: #333;
+  color: white;
+}
+
+#info {
+  display: flex;
+  margin-top: 20px;
+}
+
+#info h2 {
+  font-family: 'Raleway', sans-serif;
+  text-align: left;
+  font-size: 32px;
+  margin: 0;
+  color: #1C2541;
+  line-height: 40px;
+}
+
+#info p {
+  font-family: 'Raleway', sans-serif;
+  text-align: left;
+  line-height: 1.6em;
+}
+
+.ok-info-text {
+  width: 65%;
+  padding: 20px;
+}
+.ok-info-content {
+  max-width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: auto;
+  padding: 70px;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+}
+footer, ul{
+  list-style: none;
+}
+
+.footer-table {
+  display: table;
+  width: 100%;
+}
+.footer-row {
+  display: table-row;
+}
+footer a{
+  color: white;
+  text-decoration: none;
+}
+.footer-column {
+  display: table-cell;
+  padding: 0 15px;
+}
+
+
+@media only screen and (max-width: 767px) {
+  .footer-row {
+      display: block;
+  }
+
+  .footer-column {
+      display: block;
+      width: 100%;
+      box-sizing: border-box;
+      margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .ok-header {
+      padding: 15px;
+  }
+  img {
+    width: 100%;
+    height: 250px ;
+  }
+  nav a {
+      padding-left: 7px;
+  }
+
+  #info h2 {
+      font-size: 18px;
+      margin-left: 0;
+  }
+
+  #info p {
+      font-size: 12px;
+      margin-left: 0;
+  }
+  
+  .ok-info-text{
+      width: 100%;
+      padding: 10px;
+  }
+  .ok-img{
+     width: 60%;
+     height: 30%;
+  }
+  .ok-info-content {
+      padding: 50px;
+  }
+
+  nav a {
+      font-size: 16px;
+  }
+
+  button {
+      width: 30px;
+      padding: 8px;
+      font-size: 20px;
+      top: 15%;
+  }
+}

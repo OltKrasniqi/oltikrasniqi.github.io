@@ -1,0 +1,104 @@
+#Travel-Website{
+    margin: 0px;
+    
+}
+.ok-header {
+    z-index: 3;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    background-color: #305252;
+    transition: background-color 0.3s;
+  }
+
+  .ok-navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+  }
+  
+  .ok-navbar img {
+    height: 60px;
+  }
+  
+  nav ul {
+    display: flex;
+    margin: 0;
+  }
+  
+  nav li {
+    list-style-type: none;
+  }
+  
+  nav a:hover {
+    color: greenyellow;
+  }
+  
+  nav a {
+    text-decoration: none;
+    padding-left: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 0.06em;
+    transition: 0.1s;
+  }
+
+#ok-hero  {
+    font-family: 'Raleway', sans-serif;
+    color: #1C2541;
+    text-align: center;
+    letter-spacing: .04em;
+    font-size: 30px;
+    padding: 0px;
+    margin: 0px;}
+#ok-linjat {
+    background-color: #ebe6e2;
+    padding: 100px 0 100px 0;
+}
+.ok-linjat-item {
+    margin: 0 25px 50px 25px;
+    text-align: center; 
+    font-family: 'Raleway', sans-serif; 
+    transition:.1s;
+}
+.ok-linjat-item img {
+    width: 300px;
+    height: 240px;
+    border: 5px solid white;
+    padding: 25px;
+    border-radius: 11px;
+}
+h2 {
+    text-align: center;
+}
+@media only screen and (max-width: 767px) {
+    .ok-header {
+        padding: 15px;
+    }
+  
+    .ok-navbar img {
+        height: 30px;
+    }
+  
+    nav a {
+        padding-left: 7px;
+    }
+
+    .ok-linjat-item {
+        margin: 0px 84px 30px 45px;
+    }
+
+    .ok-linjat-item img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }
+}

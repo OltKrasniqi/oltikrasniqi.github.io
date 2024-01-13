@@ -1,0 +1,220 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header Styles */
+.site-header {
+    background-color: #23527c;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.site-header .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.site-header .nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.site-header .nav-list li {
+    margin-right: 20px;
+}
+
+.site-header .nav-list a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.ok-background-image {
+    position: relative;
+    overflow: hidden;
+}
+
+.ok-background-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+#ok-hero {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* Info Section */
+#info {
+    background-color: #f5f5f5;
+    padding: 40px 0;
+    text-align: center;
+}
+
+#info h1 {
+    color: #333;
+}
+
+#info p {
+    color: #555;
+}
+
+/* Services Section */
+#services {
+    padding: 40px 0;
+    text-align: center;
+    background-color: #fff;
+}
+
+#services h2 {
+    color: #23527c;
+}
+
+#services ul {
+    list-style: none;
+    padding: 0;
+}
+
+#services li {
+    margin: 15px 0;
+    font-weight: bold;
+}
+
+/* Recent Travels Section */
+.recent-travels-section {
+    background-color: #f5f5f5;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.recent-travels-section h2 {
+    color: #333;
+}
+
+.travel {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.travel h3 {
+    color: #23527c;
+}
+
+.travel p {
+    color: #555;
+}
+
+.travel img {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 10px;
+}
+
+/* Foto Section */
+.ok-foto {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.ok-foto img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Packages Section */
+.packages-section {
+    background-color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.packages-section h2 {
+    color: #23527c;
+}
+
+.package {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.package h3 {
+    color: #23527c;
+}
+
+.package p {
+    color: #555;
+}
+
+/* Contact Section */
+.contact-section {
+    padding: 40px 0;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+.contact-section h2 {
+    color: #333;
+}
+
+.contact-section p {
+    color: #555;
+}
+
+/* Footer Section */
+footer {
+    background-color: #23527c;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+    .site-header .nav-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .site-header .nav-list li {
+        margin: 10px 0;
+    }
+
+    #ok-hero {
+        width: 80%;
+    }
+
+    .ok-foto img {
+        width: 80%;
+    }
+}
